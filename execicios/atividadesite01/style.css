@@ -1,0 +1,78 @@
+@charset="UTF-8";
+@import url ('https://fonts.googleapis.com/css2? family = Bebas + Neue & display = swap');
+
+@font-face{
+    font-family: 'android';
+    src: url('../atividadesite01/style/idroid.otf') format('opentype');
+    font-weight: normal;
+
+}
+:root{
+    --cor0:#6d686894;
+    --cor01:#83e1ad;
+    --cor02:#3ddc84;
+    --cor03:#2fa866;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
+
+    --fonte-padrao: Arial, Verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android:'android',cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+   
+}
+header{
+    background-color: var(--cor04);
+}
+header > h1{
+      color: white;
+      font-family: var(--fonte-destaque);
+}
+header > p{
+    color: white;
+}
+nav{
+    background-color:var(--cor05);
+}
+
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px; 
+    background-color:white;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.39);
+    
+    
+   
+}
+
+
+main  h1{
+    font-family: var(--fonte-android);
+    
+}
+main h2{
+    font-family: var(--fonte-android);
+}
+main img{
+    width: 100%;
+} 
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: var(--cor05);
+    margin: 10px;
+    color: white;
+}

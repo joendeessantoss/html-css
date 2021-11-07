@@ -1,0 +1,51 @@
+@charset-"UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 225, 255, 0.397);
+    color: rgba(12, 74, 82, 0.76);
+    
+}
+h1{
+    background-color: rgb(5, 59, 59);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 1em;
+}
+    
+
+
+a{
+    
+    color: tomato;
+    text-decoration:overline;
+    font-weight: 900px;
+    
+}
+
+a:visited{
+    color: rgb(2, 6, 51);
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+    display:inline-block
+    text-decoration: double;
+    
+}
+a:active{
+    color: yellow;
+   
+}
+.especial{
+    background-color: rgba(92, 92, 243, 0.219);
+}
+.especial::before{
+    content: "✓" ;
+    color: rgb(11, 14, 14);
+
+}
+.especial::after{
+    content:'✓';
+}
+.especial::cue
+}
